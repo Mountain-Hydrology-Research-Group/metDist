@@ -30,3 +30,5 @@ for r = 2:size(Z,1)-1								% Row
 		SV(r,c) = SV(r,c)/(2*pi);					% Normalize to hemisphere steridians
 	end
 end
+
+SV = 1-SV;  % Convert from fraction of hemisphere that is obstructed to fraction unobstructed
