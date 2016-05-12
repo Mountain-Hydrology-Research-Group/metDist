@@ -67,6 +67,6 @@ for r = 2:size(Z,1)-1									% Row
 				aspect = 2*pi-pi/2;
 			end
 		end
-		HS(r,c) = ((cos(S_ZARad)*cos(slope_apprx)) + sin(S_AZRad)*sin(slope_apprx)*cos(S_AZRad-aspect));
+		HS(r,c) = ((cos(S_ZARad)*cos(slope_apprx)) + sin(S_ZARad)*sin(slope_apprx)*cos(S_AZRad-aspect));
 	end
 end
